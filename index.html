@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        My Portfolio
+    </header>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I'm Maryam Azam, a web developer passionate about creating clean and efficient websites.</p>
+        </div>
+    </section>
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <table class="skills-table">
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Advanced</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <p><strong>Project 1:</strong> Portfolio Website - A clean and modern personal portfolio.</p>
+            <p><strong>Project 2:</strong> To-Do App - A simple and efficient task management tool.</p>
+            <p><strong>Project 3:</strong> Blog Website - A platform for sharing articles and insights.</p>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </section>
+    <section id="video" class="section">
+        <div class="container">
+            <h2>Featured Video</h2>
+            <video width="100%" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <section id="audio" class="section">
+        <div class="container">
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+    </section>
+</body>
+</html>
